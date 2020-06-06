@@ -69,18 +69,18 @@ header {
   width: 100% !important;
   height: 100% !important;
   background-color: black !important;
-  background-repeat:no-repeat !important;
-  animation: 2s linear!important;
 }
 
 .nombre a {
+  display: block;
   font-family: "BebasNeue" !important;
   font-family: "BebasNeue",Verdana, Geneva, Tahoma, sans-serif !important;
   font-size: 50px !important;
   color: slateblue !important;
   text-align: center !important;
-  transition: 300ms linear !important;
+  transition: 300ms linear;
   margin-top: -6px !important;
+  height: 100%;
 }
 
 .nombre:hover a{

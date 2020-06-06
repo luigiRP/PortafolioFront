@@ -1,7 +1,31 @@
 @media (max-width: 950px) {
 
+    .carta {
+        transition: 300ms linear;
+    }
+
+    .carta:hover .icon {
+        color: slateblue;
+        animation: none;
+      }
+
+      .carta:hover .categoria {
+        color: white;
+        animation: none;
+      }
+
+      .carta:hover .descripcion{
+        color: white;
+        animation: none;
+      }
+      
+
     #inicio {
        background-color: slateblue;
+    }
+
+    header {
+        position: absolute !important;
     }
 
     .descripcion {
@@ -81,4 +105,376 @@
 
 
 }
+
+@media (max-width: 700px) {
+    .menu ul li a {
+        font-size: 4vh !important;
+    }
+
+    .nombre {
+        transition: 300ms linear;
+    }
+    .nombre:hover a {
+        background:black !important;
+    }
+    .nombre a {
+        font-size: 5vh !important;
+        display: block !important;
+        transition: none !important;
+        height: 40px !important;
+        margin-top: 1.4vh !important;
+    }
+  
+
+    .nombre a:hover {
+
+        background: black;
+    }
+}
+
+@media (max-width:618px) {
+    .nombre a {
+        font-size: 5vh !important;
+        display: block !important;
+        transition: none !important;
+        margin-top: 1.4vh !important;
+    }
+
+    .menu ul li a {
+        font-size: 3.8vh !important;
+    }
+}
+
+@media (max-width: 587px) {
+    .nombre a {
+        font-size: 4.7vh !important;
+        display: block !important;
+        transition: none !important;
+        margin-top: 1.4vh !important;
+    }
+
+    .menu ul li a {
+        font-size: 3.6vh !important;
+    }
+}
+
+@media (max-width: 568px) {
+    .menu ul li a {
+        font-size: 3.2vh !important;
+    }
+
+    .nombre {
+        transition: 300ms linear;
+    }
+    .nombre:hover a {
+        background:black !important;
+    }
+    .nombre a {
+        font-size: 4.7vh !important;
+        display: block !important;
+        margin-top: 2.45vh !important;
+        transition: none !important;
+        height: 40px !important;
+        margin-top: 1.4vh !important;
+    }
+  
+
+    .nombre a:hover {
+
+        background: black;
+    }
+}
+
+@media (max-width: 494px) {
+    .menu ul li a {
+        font-size: 2.7vh !important;
+    }
+
+    .nombre {
+        transition: 300ms linear;
+    }
+    .nombre:hover a {
+        background:black !important;
+    }
+    .nombre a {
+        font-size: 4vh !important;
+        display: block !important;
+        margin-top: 2.3vh !important;
+        transition: none !important;
+    }
+  
+
+    .nombre a:hover {
+
+        background: black;
+    }
+}
+
+@media (max-width: 430px) {
+    .menu ul li a {
+        font-size: 2.4vh !important;
+    }
+
+    .nombre {
+        transition: 300ms linear;
+    }
+    .nombre:hover a {
+        background:black !important;
+    }
+    .nombre a {
+        font-size: 4vh !important;
+        display: block !important;
+        margin-top: 2.45vh !important;
+        transition: none !important;
+    }
+  
+
+    .nombre a:hover {
+        background: black;
+    }
+}
+
+@media (max-width: 370px) {
+    .menu ul li a {
+        font-size: 2.2vh !important;
+    }
+
+    .nombre {
+        transition: 300ms linear;
+    }
+    .nombre:hover a {
+        background:black !important;
+    }
+    .nombre a {
+        font-size: 3.3vh !important;
+        display: block !important;
+        margin-top:  3vh !important;
+        transition: none !important;
+    }
+  
+
+    .nombre a:hover {
+
+        background: black;
+    }
+}
+
+@media (max-width:340px) {
+    .menu ul li a {
+        font-size: 2vh !important;
+    }
+}
+
+@media (max-width: 315px) {
+    header {
+        height: 55px !important;
+    }
+
+    .menu ul li a {
+        font-size: 1.8vh !important;
+        margin-top:  2.2vh !important;
+    }
+
+    .nombre a {
+        font-size:3.2vh !important;
+        margin-top: 1.4vh !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 290px) {
+    header {
+        height: 55px !important;
+    }
+
+    .menu ul li a {
+        font-size: 1.7vh !important;
+        margin-top:  2.2vh !important;
+    }
+
+    .nombre a {
+        font-size:2.8vh !important;
+        margin-top: 1.7vh !important;
+    }
+}
+
+@media (max-width: 263px) {
+    header {
+        height: 55px !important;
+    }
+
+    .menu ul li a {
+        font-size: 1.6vh !important;
+        margin-top: 2.3vh !important;
+    }
+
+    .nombre a {
+        font-size:2.4vh !important;
+        margin-top:2vh !important;
+    }
+}
+
+@media (max-width: 243px) {
+    header {
+        height: 55px !important;
+    }
+
+    .menu ul li a {
+        font-size: 1.3vh !important;
+        margin-top: 2vh !important;
+    }
+
+    .nombre a {
+        font-size:2.1vh !important;
+    }
+}
+
+@media (max-width: 224px) {
+    .menu ul li a {
+        font-size: 1.3vh !important;
+    }
+
+    .nombre a {
+        font-size:2.1vh !important;
+    }
+}
+
+@media (max-width: 210px) {
+    .menu ul li a {
+        font-size: 1.1vh !important;
+
+    }
+
+    .nombre a {
+        font-size:1.9vh !important;
+
+    }
+}
+
+@media (max-width: 183px) {
+
+    header {
+        height: 40px !important;
+    }
+
+    .menu ul li a {
+
+        margin-top: 1.5vh !important;
+        font-size: 1vh !important;
+
+    }
+
+    .nombre {
+        height: 30px !important;
+    }
+
+    .nombre a {
+        font-size:1.5vh !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 156px) {
+
+    .menu ul li a {
+        font-size: 0.8vh !important;
+        margin-top: 1.5vh !important;
+    }
+
+    .nombre a {
+        font-size:1.5vh !important;
+        margin-top: 2.1vh !important;
+    }
+}
+
+@media (max-width: 128px) {
+
+    .menu ul li a {
+        font-size: 0.7vh !important;
+        margin-top: 1.3vh !important;
+    }
+
+    .nombre a {
+        font-size:1.2vh !important;
+        margin-top: 2.1vh !important;
+    }
+}
+
+@media (max-width: 110px) {
+
+    .menu ul li a {
+        font-size: 0.5vh !important;
+        margin-top: 1.5vh !important;
+    }
+
+    .nombre a {
+        font-size:1vh !important;
+        margin-top: 2.6vh !important;
+    }
+}
+
+@media (max-width: 78px) {
+
+    header{
+        height: 30px !important;
+    } 
+
+    .menu ul li a {
+        font-size: 0.4vh !important;
+        margin-top: 0.7vh !important;
+    }
+
+    .nombre {
+        height: 26px !important;
+    }
+
+    .nombre a {
+        font-size:0.8vh !important;
+        margin-top: 1.8vh !important;
+    }
+}
+
+@media (max-width: 63px) {
+
+    header{
+        height: 30px !important;
+    } 
+
+    .menu ul li a {
+        font-size: 0.4vh !important;
+        margin-top: 0.3vh !important;
+    }
+
+    .nombre {
+        height: 26px !important;
+    }
+
+    .nombre a {
+        font-size:0.5vh !important;
+        margin-top: 1.8vh !important;
+    }
+}
+
+@media (max-width: 58px) {
+
+    header{
+        height: 30px !important;
+    } 
+
+    .menu ul li a {
+        font-size: 0.3vh !important;
+        margin-top: 0.3vh !important;
+    }
+
+    .nombre {
+        height: 26px !important;
+    }
+
+    .nombre a {
+        font-size:0.5vh !important;
+        margin-top: 1.7vh !important;
+    }
+}
+
+
 
