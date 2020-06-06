@@ -11,7 +11,6 @@ export class App extends Component {
     return (
       <div className="App">
 
-
         {/*HEADER COMIENZO*/}
         <header id="cabecera">
 
