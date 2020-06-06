@@ -1,6 +1,10 @@
 
 /* FONTS START*/
 
+* {
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "TrebuchetMS";
   src: url(TrebuchetMS.ttf);
