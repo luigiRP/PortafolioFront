@@ -1,0 +1,15 @@
+@media screen and (max-width:750px ) {
+    .carta:hover .icon {
+        animation: none !important;
+    }
+    .carta:hover .categoria {
+        animation: none !important;
+    }
+    .carta:hover .descripcion {
+        animation: none !important;
+    }
+
+    .carta {
+        transition: 200ms linear;
+    }
+}
