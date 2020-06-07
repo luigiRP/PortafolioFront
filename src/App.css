@@ -57,100 +57,66 @@ header {
   width: 100% !important;
   background-color: black !important;
   border: 1px solid black !important;
-  display: grid !important;
-  grid-area: hd !important;
-  grid-template-columns: 36.5% auto !important;
-  position: fixed !important;
-  height: 70px !important;
-}
-
-/* NOMBRE START*/
-.nombre {
-  width: 100% !important;
-  height: 100% !important;
-  background-color: black !important;
-}
-
-.nombre a {
-  display: block;
-  font-family: "BebasNeue" !important;
-  font-family: "BebasNeue",Verdana, Geneva, Tahoma, sans-serif !important;
-  font-size: 50px !important;
-  color: slateblue !important;
-  text-align: center !important;
-  transition: 300ms linear;
-  margin-top: -6px !important;
-  height: 100%;
-}
-
-.nombre:hover a{
-  color: rgb(223, 0, 204) !important;
-}
-
-
-.nombre:hover a{
-  background: url("programming-code-simple-background-coding-wallpaper-preview.jpg") ;
-  background-position: 420px -500px ;
-  animation: backBanner 300ms ; 
-  animation-fill-mode: forwards ;
-}
-
-@keyframes backBanner{
-  0% {
-    background-position: -126px -500px ;
-    color: slateblue ;
-  }
-
-  100% {
-    background-position: -126px -170px ;
-    
-  }
-}
-
-
-
-/* NOMBRE FINISH*/
-
-/* MENU START*/
-
-header ul {
-  margin: 0px !important;
+  position: fixed;
   display: flex !important;
-  flex-direction: row !important;
-  justify-content: flex-end !important;
-  height: 100% !important;
-  padding: 0px !important;
+  flex-direction: row;
+  height: 60px!important;
 }
-header ul li {
-  display: inline-block!important;
-  list-style-type: none !important;
-  margin-left: 3% !important;
-  margin-right: 3% !important;
-  
+.nombre {
+  flex: 1;
 }
 
-header ul li a {
-  transition: linear 200ms !important;
-  font-family: "BebasNeue" !important;
-  font-size: 33px !important;
-  margin-top: 26px !important;
+#nombre {
+  height: 100%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
 }
-
-header ul li a:hover {
-  color: slateblue !important;
-  transform: scale(1.1, 1.1) !important;
-}
-
-header a {
-  display: block !important;
+.nombre a {
   text-decoration: none !important;
-  color: white !important;
-  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+  font-family:"BebasNeue";
+  color: slateblue;
+  font-size:3.5em;
+  transition: 300ms linear;
+}
 
-  height: 100% !important;
-  margin-top: 0px !important;
-  margin-top: 21px !important;
-  font-size: 20px !important;
+.nombre a:hover {
+  color: rgb(233, 74, 193);
+}
+
+.menu {
+  flex: 2;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: none;
+}
+
+.menu ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  list-style: none;
+  margin-bottom: none;
+}
+
+.menu ul li {
+  text-decoration: none !important;
+}
+
+.menu ul li a {
+  font-family: "BebasNeue";
+  color: white;
+  font-size: 2.3em;
+  text-decoration: none !important;
+  transition: all 300ms;
+}
+
+.menu ul li a:hover{
+  color: rgb(233, 74, 193);
+  font-size: 2.5em;
 }
 
 /* MENU FINISH*/
