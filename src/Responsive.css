@@ -12,4 +12,65 @@
     .carta {
         transition: 200ms linear;
     }
+
+    header {
+        position: static !important;
+    }
+
+    #inicio {
+        margin-top: -30px !important;
+    }
+
+    #contacto {
+        margin-top: -90px !important;
+    }
 }
+
+ /*@media screen and (max-width: 610px) {
+    .nombre a {
+        font-size: 3em !important;
+        transition: none !important;
+    }
+    .menu ul li a {
+        font-size: 2em !important;
+        transition: none !important;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .nombre a {
+        font-size: 2.5em !important;
+    }
+    .menu ul li a {
+        font-size: 1.7em !important;
+    }
+}
+
+@media screen and (max-width: 435px) {
+    .nombre a {
+        font-size: 2em !important;
+    }
+    .menu ul li a {
+        font-size: 1.2em !important;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .nombre a {
+        font-size: 1.7em !important;
+        margin-left: 1vh !important;
+    }
+    .menu ul li a {
+        font-size: 1em !important;
+    }
+}
+
+@media screen and (max-width: 316px) {
+    .nombre a {
+        font-size: 1.3em !important;
+    }
+    .menu ul li a {
+        font-size: 0.8em !important;
+    }
+}
+*/
