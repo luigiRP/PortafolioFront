@@ -410,6 +410,12 @@ color: lightseagreen;
   background-position: center;
   background-size: cover;
 }
+
+#proyecto2 {
+  background: url('./StarWarsBlog.PNG');
+  background-position: center;
+  background-size: cover;
+}
 /* PORTAFOLIO FINAL*/
 
 /* CONTACTO INICIO*/

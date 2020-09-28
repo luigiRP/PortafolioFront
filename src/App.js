@@ -3,7 +3,7 @@ import './App.css';
 import './Responsive.css'
 import { Component } from 'react'
 import perfil from './perfil.jpg'
-import cvtxt from './CVes.pdf'
+import cvtxt from './resume.pdf'
 
 export class App extends Component {
 
@@ -57,7 +57,7 @@ export class App extends Component {
           <img src={perfil} alt="Luigi" />
 
           <div id="about">
-            <p> Hola! Soy desarrollador web Front-End. Me encanta el mundo de la informática, especialmente el del desarrollo web. Soy flexible y hasta ansioso por conocer nuevas tecnologías y crecer profesionalmente.</p>
+            <p> Hola! Soy desarrollador web Fullstack. Soy un apasionado por el mundo de la informática, especialmente en el área del desarrollo web. Estoy entusiasmado por no sólo mejorar con lo que conozco, sino también aprender nuevas tecnologías y destacarme en ellas. Me considero una persona autodidacta, responsable y colaboradora.</p>
           </div>
 
         </section>
@@ -76,14 +76,14 @@ export class App extends Component {
             <div className="carta">
               <p className="icon">H</p>
               <h2 className="categoria">MIS HABILIDADES</h2>
-              <p className="descripcion">HTML, CSS, SASS, Bootstrap, Javascript, React, Node.js, Express</p>
+              <p className="descripcion">HTML, CSS, Bootstrap, Javascript, React, Python, Flask, SQL, SQLAlchemy, C++</p>
 
             </div>
 
             <div className="carta">
               <p className="icon">e</p>
               <h2 className="categoria">EXTRA</h2>
-              <p className="descripcion">Soy bilingüe y sé principios de Responsive Web Design  </p>
+              <p className="descripcion">GIT, Github, Jira,  Netlify, SCRUM, APIs, JSON</p>
 
             </div>
 
@@ -93,16 +93,22 @@ export class App extends Component {
         {/*CV  FINAL*/}
 
         {/*PORTFOLIO INICIO*/}
-        <div id="portafolio">
+        <div id="portafolio" className="container-fluid">
 
           <h1 className="titulo-seccion" id="titulo-portafolio">PORTAFOLIO</h1>
 
-          <div id="proyectos">
+          <div id="proyectos" className="row">
 
           <div className="unidad-proyecto" id="proyecto1">
             <span id="proyecto-titulo"><h1>Super Merch</h1></span>
             <div  id="proyecto-url"><a href="https://supermerch.netlify.app/" target="_blank"  rel="noopener noreferrer">Ir al proyecto</a></div>
-            <div id="proyecto-github"><a href="https://github.com/luigiRP/Super-Merch" target="_blank"  rel="noopener noreferrer"> Github</a></div>
+            <div id="proyecto-github"><a href="https://github.com/luigiRP/Super-Merch" target="_blank"  rel="noopener noreferrer"> Repositorio</a></div>
+
+          </div>
+          <div className="unidad-proyecto mx-5" id="proyecto2">
+            <span id="proyecto-titulo"><h1>Star Wars Blog</h1></span>
+            <div  id="proyecto-url"><a href="https://github.com/luigiRP/Star-Wars-Blog" target="_blank"  rel="noopener noreferrer">Repositorio</a></div>
+            
 
           </div>
 
