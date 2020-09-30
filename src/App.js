@@ -3,7 +3,7 @@ import './App.css';
 import './Responsive.css'
 import { Component } from 'react'
 import perfil from './perfil.jpg'
-import cvtxt from './resume.pdf'
+import cvtxt from './Luis_Rosales_CV(es) - Copy.pdf'
 
 export class App extends Component {
 
