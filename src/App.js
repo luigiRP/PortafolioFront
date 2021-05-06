@@ -107,7 +107,7 @@ export class App extends Component {
           </div>
           <div className="unidad-proyecto mx-5" id="proyecto2">
             <span id="proyecto-titulo"><h1>Star Wars Blog</h1></span>
-            <div  id="proyecto-url"><a href="https://3000-salmon-gibbon-2nfgzy3x.ws-eu03.gitpod.io" target="_blank"  rel="noopener noreferrer">Ir al proyecto</a></div>
+            <div  id="proyecto-url"><a href="https://star-wars-api-blog-glroqhysu-luigirp.vercel.app/#/" target="_blank"  rel="noopener noreferrer">Ir al proyecto</a></div>
             <div  id="proyecto-github"><a href="https://github.com/luigiRP/Star-Wars-Blog" target="_blank"  rel="noopener noreferrer">Repositorio</a></div>
             
 
